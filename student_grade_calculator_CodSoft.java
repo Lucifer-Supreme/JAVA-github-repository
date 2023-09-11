@@ -62,6 +62,7 @@ public class student_grade_calculator_CodSoft {
         //AVERAGE CALCULATION
 
         int average = (maths+science+social+english+sanskrit+ec)/6;
+        int total = maths+science+social+english+sanskrit+ec
 
         //GRADE ALLOCATION
 
@@ -97,6 +98,7 @@ public class student_grade_calculator_CodSoft {
         System.out.println("English marks -> "+english);
         System.out.println("Sanskrit marks -> "+sanskrit);
         System.out.println("Extra Curriculum marks -> "+ec);
+        System.out.println("Total marks out of 600 -> "+total);
         System.out.println("Average Parcentage -> "+average+"%");
         System.out.println("\nGrade acheived -> "+grade);
         System.out.println("\n\n**********************************************************************************\n\n");
